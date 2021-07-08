@@ -1,0 +1,5 @@
+#program to input radius of circle from user and print its area
+import math
+radius=float(input("Enter the radius of circle: "))
+area=math.pi*radius**2
+print("The area of circle with radius",radius,"is:",area)
